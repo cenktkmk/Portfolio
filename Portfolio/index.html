@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Projesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="btn">
+                <a href="#homepage" class="a"><button class="button"
+                        onclick="setTimeout(function() { document.querySelector('#alt').scrollIntoView({ behavior: 'smooth' }); }, 2000);">Anasayfa</button></a>
+                <a href="#sertifika" class="a"><button class="button"
+                        onclick="setTimeout(function() { document.querySelector('#alt').scrollIntoView({ behavior: 'smooth' }); }, 2000);">Öz
+                        Geçmiş</button></a>
+                <a href="#proje" class="a"><button class="button"
+                        onclick="setTimeout(function() { document.querySelector('#alt').scrollIntoView({ behavior: 'smooth' }); }, 2000);">Projelerim</button></a>
+                <a href="#contact" class="a"><button class="button"
+                        onclick="setTimeout(function() { document.querySelector('#alt').scrollIntoView({ behavior: 'smooth' }); }, 2000);">İletişim</button></a>
+            </div>
+        </nav>
+        <div class="homepage" id="homepage">
+            <div class="text">
+                <h1>Hoş Geldiniz</h1>
+                <p>Meriç Cenk Tokmak</p>
+                <p>Front End Developer</p>
+
+            </div>
+            <div class="image">
+                <a href="https://www.instagram.com/cenktkmk/"><img src="images/foto.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="gradient">
+
+        </div>
+        <div class="cv">
+            <div class="sertifika" id="sertifika">
+
+                <div class="sertifikaimg">
+                    <div class="img">
+                        <p>FreeCodeCamp Responsive Web Design</p>
+                        <img src="images/sertifika.png" alt="" width="70%" height="100%">
+
+                    </div>
+                    <div class="img">
+                        <p>Anadolu Üniversitesi</p>
+                        <img src="images/sertifika2.png" alt="" width="70%" height="100%">
+
+                    </div>
+                </div>
+            </div>
+            <div class="hakkımda">
+                <h1>Hakkımda</h1>
+                <p>Merhaba, ben Meriç Cenk Tokmak. Akdeniz Üniversitesi'nde Gastronomi okuyorum, şu anda 4. sınıftayım.
+                    Aynı zamanda Anadolu Üniversitesi'nde Web Tasarım ve Kodlama okuyorum, Neos Yazılım Akademi'den Full
+                    Stack eğitimi alıyorum. 23 yaşındayım ve Balıkesir'de yaşıyorum. Front End Developer olarak yapmış
+                    olduğum projeler bulunmaktadır. Projelerim alanında görüntüleyebilirsiniz. </p>
+            </div>
+
+        </div>
+        <div class="gradient2">
+
+        </div>
+        <div class="projeler" id="proje">
+            <div class="projebas">
+                <h1>Örnek Projelerim</h1>
+            </div>
+            <div class="projelerim">
+                <div class="proje2">
+                    <h1>
+                        <a href="./nationalgeographic/index.html"> National Geographic </a>
+                    </h1>
+                    <IFRAME SRC="./nationalgeographic/index.html" width="100%" height="100%"></IFRAME>
+                </div>
+            </div>
+        </div>
+        <div class="gradient">
+
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="iletisim">
+                <h1>İletişime Geçin</h1>
+            </div>
+            <div class="information">
+                <form class="form" onsubmit="myFunction()">
+                    <div class="bilgi">
+                        <div class="ad">
+                            <label for="text">Ad Soyad</label>
+                            <input type="text" placeholder="İsminizi Giriniz">
+                        </div>
+                        <div class="mail">
+                            <label for="mail" s>Email</label>
+                            <input type="email" placeholder="Mailinizi Giriniz">
+                        </div>
+                    </div>
+                    <div class="mesaj">
+                        <label for="Mesaj">Mesajınızı İletin</label>
+                        <textarea id="textarea"
+                            placeholder="Merhaba, Lütfen konunun detayları ile birlikte mesajınızı iletiniz" name=""
+                            id="" cols="47" rows="5"></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="gradient2">
+
+    </div>
+    <footer class="footer" id="footer">
+        <div class="ileti">
+            <p>Contact Me</p>
+        </div>
+        <div class="logo">
+            <a href="https://www.linkedin.com/in/meri%C3%A7-cenk-tokmak-46675315a/"><i class="fa-brands fa-linkedin"
+                    style="color: black;"></i></a>
+            <a href="https://www.instagram.com/cenktkmk/"><i class="fa-brands fa-instagram"
+                    style="color: black;"></i></a>
+            <a href="https://github.com/cenktkmk?tab=projects"><i class="fa-brands fa-github"
+                    style="color: black;"></i></a>
+        </div>
+        <div class="name">
+            <p>
+                tokmakcenk@gmail.com
+            </p>
+        </div>
+        <div class="location">
+            <p><i class="fa-solid fa-location-dot"></i> Türkiye/Balıkesir</p>
+        </div>
+    </footer>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        const textarea = document.getElementById("textarea");
+        if (!textarea.value) {
+            alert("Lütfen form gönderimi için boşluları doldurunuz.");
+            return false; // form gönderimini iptal et
+        } else {
+            alert("Form gönderimi için teşekkürler, en kısa süre içerisinde geri dönüş yapılacaktır.");
+            return true; // formu gönder
+        }
+    }
+
+</script>
+
+</html>
